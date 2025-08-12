@@ -30,3 +30,33 @@ function layeredDiscountedTotal(quantity) {
 
 const result = layeredDiscountedTotal(20);
 console.log(result);
+
+
+
+// jihad kakar code
+function layreDicountTotal(qaountity){
+    const fristonePrice = 100; // 
+    const secondOnePrice = 90;//
+    const aboveOnePrice = 70;
+    if(qaountity <= 100){
+        const total = qaountity * fristonePrice;
+        return total;
+    }else if(qaountity <= 200){  
+        const fristTotal = 100 * fristonePrice; // 100 taka  //100
+        const remainnigQouantity = qaountity - 100; // - 100;
+        const remainnigTotal = remainnigQouantity * secondOnePrice;  /// 90
+        const total = fristTotal + remainnigTotal; /// total
+        return total;
+    }else{
+        const first100Total = 100 * fristonePrice;
+        const second100Total = 100 * secondOnePrice;
+        const remainingQouantity = qaountity - 200;
+        const remainniTotal = remainingQouantity * aboveOnePrice;
+        const total = first100Total + second100Total + remainniTotal;
+        return total;
+    }
+}
+
+
+const mainResult = layreDicountTotal(201);
+console.log(mainResult);
