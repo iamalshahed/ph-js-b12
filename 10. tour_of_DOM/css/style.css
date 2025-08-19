@@ -17,3 +17,11 @@
 .big{
     font-size: 7rem;
 }
+
+.card_bg{
+    background: #2dba4e;
+    color: white;
+    padding: 0.6rem 1rem;
+    border-radius: 1rem;
+    margin-block: 1rem;
+}
