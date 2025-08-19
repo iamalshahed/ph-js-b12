@@ -1,3 +1,7 @@
 #food_title{
     color: green;
 }
+
+.food .foreign{
+    font-weight: bolder;
+}

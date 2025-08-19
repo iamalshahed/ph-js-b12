@@ -33,3 +33,10 @@ console.log(foreign);
 for (let item of foreign) {
   console.log(item.innerText);
 }
+
+// query selector all
+const spanElem = document.querySelectorAll("#old_dhaka p span");
+console.log(spanElem);
+for (let span of spanElem) {
+  console.log(span.innerText);
+}
