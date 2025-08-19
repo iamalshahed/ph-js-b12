@@ -5,3 +5,15 @@
 .food .foreign{
     font-weight: bolder;
 }
+
+.bg_red {
+    background: red;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.big{
+    font-size: 7rem;
+}
