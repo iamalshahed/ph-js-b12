@@ -23,3 +23,14 @@ btnMakeBlue.onclick = function makeBlue() {
   document.body.style.background = "blue";
   document.body.style.color = "#fff";
 };
+
+/**
+ * option 4: addEventListener
+ * document.getElementById().addEventListener('even name', handle);
+ */
+const btnMakeGreen = document.getElementById("btn__make__green");
+btnMakeGreen.addEventListener("click", function () {
+  document.body.style.background = "#2dba4e";
+  document.body.style.color = "#fff";
+  // btnMakeGreen.innerText = 'hoye gese';
+});
