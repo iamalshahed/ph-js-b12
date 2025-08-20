@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubble</title>
+
+    <style>
+        body{
+            border: 2px solid red;
+            padding: 4px;
+        }
+        h1{
+            border: 2px solid blue;
+        }
+
+        ol{
+            border: 2px solid green;
+        }
+        li{
+            border: 2px solid violet;
+        }
+    </style>
+</head>
+<body id="body">
+    <section id="section">
+        <h1>Bubble Event</h1>
+        <ol id="list__items">
+            <li id="item__1">item - 1</li>
+            <li id="item__2">item - 2</li>
+            <li id="item__3">item - 3</li>
+            <li id="item__4">item - 4</li>
+            <li id="item__5">item - 5</li>
+        </ol>
+    </section>
+
+    <script>
+        // list item 2 clicked handler
+        document.getElementById('item__2').addEventListener('click', function() {
+            console.log('list item 2 clicked');
+        })
+
+        // ol clicked handler
+        document.getElementById('list__items').addEventListener('click', function() {
+            console.log('ol clicked');
+        })
+
+        // section clicked handler
+        document.getElementById('section').addEventListener('click', function() {
+            console.log('section clicked');
+        })
+
+        // body clicked handler
+        document.getElementById('body').addEventListener('click', function() {
+            console.log('body clicked');
+        })
+    </script>
+</body>
+</html>
