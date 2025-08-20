@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delegate</title>
+</head>
+<body>
+    <h1>Delegate Event</h1>
+
+    <!-- ol#item>li.item__list__$*6{item - $} -->
+    <ol id="ol__items">
+        <li class="item__list">item - 1</li>
+        <li class="item__list">item - 2</li>
+        <li class="item__list">item - 3</li>
+        <li class="item__list">item - 4</li>
+        <li class="item__list">item - 5</li>
+        <li class="item__list">item - 6</li>
+    </ol>
+
+    <button id="addNew">Add new</button>
+
+    <script>
+        // const items = document.getElementsByClassName('item__list');
+        // for(let item of items){
+        //     item.addEventListener('click', function(e){
+        //         e.target.parentNode.removeChild(e.target);
+        //     })
+        // }
+        const ol = document.getElementById('ol__items');
+        const btnAddNew = document.getElementById('addNew');
+        ol.addEventListener('click', function(e){
+            e.target.parentNode.removeChild(e.target);
+        })
+
+
+        btnAddNew.addEventListener('click', function(){
+            const li = document.createElement('li');
+            li.classList.add('item__list');
+            li.innerText = 'New Item';
+
+            ol.appendChild(li);
+        })
+    </script>
+</body>
+</html>
