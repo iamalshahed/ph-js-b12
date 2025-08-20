@@ -19,6 +19,6 @@ btnComment.addEventListener("click", function () {
     // step: 5
     commentBox.value = "";
   } else {
-    alert("Comment field id empty!");
+    alert("Comment field is empty!");
   }
 });
