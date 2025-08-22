@@ -1,4 +1,8 @@
-# ignore
+# projects
+ph-tailwind-project-*/
+ph-js-project-*/
+
+# assignments
 ph-js-assignment-*/
 ph-tailwind-assignment-*/
-ph-tailwind-project-*/
+ph-js-assignment-*/
