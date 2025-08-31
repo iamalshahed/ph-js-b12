@@ -171,6 +171,43 @@ ph-js-12/
 │  ├─ event.html
 │  ├─ index.html
 │  └─ more_events.html
+├─ 12. es6-intro/
+│  ├─ practice_problem/
+│  │  ├─ prblm_1.js
+│  │  ├─ prblm_10.js
+│  │  ├─ prblm_2.js
+│  │  ├─ prblm_3.js
+│  │  ├─ prblm_4.js
+│  │  ├─ prblm_5.js
+│  │  ├─ prblm_6.js
+│  │  ├─ prblm_7.js
+│  │  ├─ prblm_8.js
+│  │  └─ prblm_9.js
+│  ├─ arrow_function.js
+│  ├─ default_parameter.js
+│  ├─ destructuring.js
+│  ├─ entries.js
+│  ├─ freeze.js
+│  ├─ let_const.js
+│  ├─ more-arrow_function.js
+│  ├─ object_looping.js
+│  ├─ seal.js
+│  ├─ spread.js
+│  └─ template_string.js
+├─ 13. more_es6/
+│  ├─ chain.js
+│  ├─ class.js
+│  ├─ dot_bracket.js
+│  ├─ filter.js
+│  ├─ find.js
+│  ├─ foreach.js
+│  ├─ inharitence.js
+│  ├─ map_filter_find.js
+│  ├─ map.js
+│  ├─ recap.js
+│  ├─ reduce.js
+│  ├─ rivision.js
+│  └─ this.js
 ├─ ph-js-assignment-01-shahed/
 │  ├─ final.js
 │  ├─ problem-01.js
@@ -197,6 +234,27 @@ ph-js-12/
 │  │  └─ problem_5.todo
 │  ├─ final.js
 │  └─ README.md
+├─ ph-js-assignment-03-shahed/
+│  ├─ assets/
+│  │  ├─ ambulance.png
+│  │  ├─ bangladesh_railway.png
+│  │  ├─ brac.png
+│  │  ├─ coin.png
+│  │  ├─ emergency.png
+│  │  ├─ fire_service.png
+│  │  ├─ heart.png
+│  │  ├─ logo_dark.png
+│  │  ├─ logo_full.png
+│  │  ├─ logo.png
+│  │  └─ police.png
+│  ├─ css/
+│  │  └─ style.css
+│  ├─ js/
+│  │  └─ main.js
+│  ├─ emergency_hotline.fig
+│  ├─ index.html
+│  ├─ README.md
+│  └─ tailwind.config.js
 ├─ ph-tailwind-project-01-shahed/
 │  ├─ public/
 │  │  └─ images/
