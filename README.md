@@ -1,4 +1,4 @@
-# Central Code Repository - Programming Hero's AI-powered web development JavaScript course
+## Central Code Repository - Programming Hero's AI-powered web development JavaScript course
 
 ---
 
