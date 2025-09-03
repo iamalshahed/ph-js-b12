@@ -13,6 +13,9 @@ const loadPostTitle = () => {
 };
 
 const displayPostTitle = (posts) => {
+  // empty the container
+  dptc.innerHTML = "";
+
   posts.forEach((post) => {
     // 1. create an element
     let li = document.createElement("li");
