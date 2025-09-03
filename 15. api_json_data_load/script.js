@@ -11,7 +11,7 @@ const person = {
 };
 console.log(person, typeof person);
 
-/**
+/** notes --->>
  * JSON --->> JavaScript Object with notation
  * JSON.stringify()
  * JSON.parse()
