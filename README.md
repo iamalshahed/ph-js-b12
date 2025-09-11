@@ -5,7 +5,7 @@
 **📂 Project Structure**
 
 ```bash
-ph-js-12/
+ph-js-b12/
 ├─ 01. loop/
 │  ├─ practice_all/
 │  │  ├─ different.js
@@ -195,6 +195,17 @@ ph-js-12/
 │  ├─ spread.js
 │  └─ template_string.js
 ├─ 13. more_es6/
+│  ├─ practice_problem/
+│  │  ├─ prblm_1.js
+│  │  ├─ prblm_2.js
+│  │  ├─ prblm_3.js
+│  │  ├─ prblm_4.js
+│  │  ├─ prblm_5.js
+│  │  ├─ prblm_6.js
+│  │  ├─ prblm_7.js
+│  │  ├─ prblm_8.js
+│  │  ├─ prblm_9.js
+│  │  └─ problem_10.js
 │  ├─ chain.js
 │  ├─ class.js
 │  ├─ dot_bracket.js
@@ -208,81 +219,39 @@ ph-js-12/
 │  ├─ reduce.js
 │  ├─ rivision.js
 │  └─ this.js
-├─ ph-js-assignment-01-shahed/
-│  ├─ final.js
-│  ├─ problem-01.js
-│  ├─ problem-02.js
-│  ├─ problem-03.js
-│  ├─ problem-04.js
-│  ├─ problem-05.js
-│  └─ problem-06.js
-├─ ph-js-assignment-02-shahed/
-│  ├─ problem_1/
-│  │  ├─ problem_1.js
-│  │  └─ problem_1.todo
-│  ├─ problem_2/
-│  │  ├─ problem_2.js
-│  │  └─ problem_2.todo
-│  ├─ problem_3/
-│  │  ├─ problem_3.js
-│  │  └─ problem_3.todo
-│  ├─ problem_4/
-│  │  ├─ problem_4.js
-│  │  └─ problem_4.todo
-│  ├─ problem_5/
-│  │  ├─ problem_5.js
-│  │  └─ problem_5.todo
-│  ├─ final.js
-│  └─ README.md
-├─ ph-js-assignment-03-shahed/
-│  ├─ assets/
-│  │  ├─ ambulance.png
-│  │  ├─ bangladesh_railway.png
-│  │  ├─ brac.png
-│  │  ├─ coin.png
-│  │  ├─ emergency.png
-│  │  ├─ fire_service.png
-│  │  ├─ heart.png
-│  │  ├─ logo_dark.png
-│  │  ├─ logo_full.png
-│  │  ├─ logo.png
-│  │  └─ police.png
-│  ├─ css/
-│  │  └─ style.css
+├─ 14. js_core_concepts/
+│  ├─ callback.js
+│  ├─ data_type.js
+│  ├─ double_equal.js
+│  ├─ pass_by_referance.js
+│  ├─ scope.js
+│  ├─ triple_equal.js
+│  └─ truthy.js
+├─ 15. api_json_data_load/
+│  ├─ tasks/
+│  │  ├─ index.html
+│  │  └─ task_1.js
+│  ├─ index.html
+│  ├─ post_title.js
+│  ├─ script.js
+│  ├─ tailwind.config.js
+│  └─ test.js
+├─ 16. more_js_concepts/
+│  ├─ async.js
+│  ├─ await.js
+│  ├─ event_loop.js
+│  ├─ fetch.js
+│  ├─ index.html
+│  ├─ promise_all.js
+│  ├─ promise.js
+│  ├─ setInterval.js
+│  └─ timeout.js
+├─ 17. browser_storage_api/
 │  ├─ js/
-│  │  └─ main.js
-│  ├─ emergency_hotline.fig
-│  ├─ index.html
-│  ├─ README.md
-│  └─ tailwind.config.js
-├─ ph-tailwind-project-01-shahed/
-│  ├─ public/
-│  │  └─ images/
-│  │     ├─ arrow.png
-│  │     ├─ banner.png
-│  │     ├─ bg_cup.png
-│  │     ├─ circles.png
-│  │     ├─ client.png
-│  │     ├─ cup.png
-│  │     ├─ fresh-1.png
-│  │     ├─ fresh-2.png
-│  │     ├─ news-1.png
-│  │     ├─ news-2.png
-│  │     ├─ news-3.png
-│  │     ├─ tea-1.png
-│  │     ├─ tea-2.png
-│  │     ├─ tea-3.png
-│  │     └─ tea-4.png
-│  ├─ src/
-│  │  ├─ main.js
-│  │  └─ tailwind.css
-│  ├─ .gitignore
-│  ├─ index.html
-│  ├─ LICENSE
-│  ├─ package-lock.json
-│  ├─ package.json
-│  ├─ README.md
-│  └─ vite.config.js
+│  │  ├─ cart.js
+│  │  └─ local_storage.js
+│  ├─ cart.html
+│  └─ index.html
 ├─ .gitignore
 └─ README.md
 ```
