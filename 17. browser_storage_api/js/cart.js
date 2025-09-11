@@ -4,7 +4,7 @@ const productContainer = document.getElementById("product__container");
 
 const handleAddProduct = () => {
   const product = productElm.value;
-  const quantity = quantityElm.value;
+  const quantity = parseInt(quantityElm.value);
   // console.log("product added!", product, quantity);
 
   displayProduct(product, quantity);
@@ -21,12 +21,36 @@ const displayProduct = (product, quanttity) => {
 };
 
 const getCart = () => {
-  const cart = {};
+  let cart = {};
+  const cartJSON = localStorage.getItem("cart");
+
+  if (cartJSON) {
+    cart = JSON.parse(cartJSON);
+  }
+
   return cart;
 };
 
 const addPoductToCart = (product, quantity) => {
   const cart = getCart();
-  cart[product] = quantity;
+
+  if (cart[product]) {
+    cart[product] = cart[product] + quantity;
+  } else {
+    cart[product] = quantity;
+  }
+
   console.log("cart", cart);
+  const cartJSON = JSON.stringify(cart);
+  localStorage.setItem("cart", cartJSON);
 };
+
+const displayStoredProduct = () => {
+  const cart = getCart();
+  for (const product in cart) {
+    const quantity = cart[product];
+    console.log(product, quantity);
+    displayProduct(product, quantity);
+  }
+};
+displayStoredProduct();
